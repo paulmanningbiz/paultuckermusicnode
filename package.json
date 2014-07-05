@@ -1,0 +1,18 @@
+{
+	 "name": "paultuckermusic"
+    ,"description" : "Person web site of Paul Tucker with some of his recordings"
+    ,"engine": "node >= 0.10.12"
+	,"version": "0.0.1"
+    ,"main": "server.js"
+	,"private": true
+	,"scripts":
+    {
+		"start": "node server.js"
+    }
+    ,"dependencies":
+    {
+         "express": "3.4.4"
+        ,"express3-handlebars": "*"
+        ,"sendgrid" : "1.0.3"
+     }
+}
